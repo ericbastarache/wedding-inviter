@@ -1,0 +1,8 @@
+{
+  "name": "wedding-inviter",
+  "version": "1.0.0",
+  "description": "Simple application to manage wedding invitations",
+  "main": "index.js",
+  "author": "Eric Bastarache",
+  "license": "MIT"
+}
