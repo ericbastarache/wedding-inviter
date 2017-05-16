@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/Header';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
   render() {
     return (
-      <Header headerText="Testing"/>
+      <div>
+        <Header headerText="Testing"/>
+        <Footer footerText="Copyright Eric Bastarache 2017" />
+      </div>
     );
   }
 }
