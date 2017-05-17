@@ -1,0 +1,25 @@
+nav.navbar-wedding {
+  background: transparent;
+}
+
+a.navbar-brand {
+  color: #000;
+  font-family: 'Courgette', cursive;
+  font-size: 30px;
+}
+
+ul.navbar-nav li a {
+  color: #000;
+  font-family: 'Courgette', cursive;
+  font-size: 20px;
+}
+
+ul.navbar-nav li a:hover {
+  background: transparent;
+  transition: 0.4s ease-in-out;
+  color: #F86EE7;
+}
+
+span.icon-bar {
+  background-color: #000;
+}
