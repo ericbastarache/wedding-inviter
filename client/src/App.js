@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header headerText="Testing"/>
+        <Header headerText="Wedding Inviter"/>
         <Footer footerText="Copyright Eric Bastarache 2017" />
       </div>
     );
