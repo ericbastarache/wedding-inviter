@@ -1,5 +1,5 @@
 nav.navbar-wedding {
-  background: transparent;
+  background: rgba(255, 255, 255, 0.3);
 }
 
 a.navbar-brand {
@@ -11,13 +11,14 @@ a.navbar-brand {
 ul.navbar-nav li a {
   color: #000;
   font-family: 'Courgette', cursive;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 ul.navbar-nav li a:hover {
   background: transparent;
   transition: 0.4s ease-in-out;
-  color: #F86EE7;
+  text-shadow: 0px 0px 3px #000;
+  color: #f86ee7;
 }
 
 span.icon-bar {
