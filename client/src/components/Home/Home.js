@@ -4,6 +4,7 @@ import './Home.css';
 class Home extends Component {
   render () {
     return (
+      <div>
       <section className="home-banner">
         <div className="container">
           <div className="row">
@@ -21,7 +22,7 @@ class Home extends Component {
                         <label htmlFor="email">Email: </label>
                         <input type="text" className="form-control" placeholder="Email Address" />
                       </div>
-                      <button className="btn btn-default">Submit</button>
+                      <button className="btn btn-success">Submit</button>
                     </form>
                   </div>
                 </div>
@@ -30,6 +31,31 @@ class Home extends Component {
           </div>
         </div>
       </section>
+      <section className="features">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4">
+              <div className="feature">
+                <h1 className="text-center">Email <i className="fa fa-envelope"></i></h1>
+                <p>Create an account for your wedding day and populate your guest list. When your list is complete, simply hit the send button to send the invitations.</p>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="feature">
+                <h1 className="text-center">Fast <i className="fa fa-bolt"></i></h1>
+                <p>Sending wedding invitations has never been so easy. Spend less time worrying about your invitations going out and more time planning your perfect day.</p>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="feature">
+                <h1 className="text-center"><i className="fa fa-star"></i></h1>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </div>
     );
   }
 }
