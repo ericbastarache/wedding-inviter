@@ -36,20 +36,20 @@ class Home extends Component {
           <div className="row">
             <div className="col-md-4">
               <div className="feature">
-                <h1 className="text-center">Email <i className="fa fa-envelope"></i></h1>
+                <h1 className="text-center">Convenient <i className="fa fa-envelope"></i></h1>
                 <p>Create an account for your wedding day and populate your guest list. When your list is complete, simply hit the send button to send the invitations.</p>
               </div>
             </div>
             <div className="col-md-4">
               <div className="feature">
                 <h1 className="text-center">Fast <i className="fa fa-bolt"></i></h1>
-                <p>Sending wedding invitations has never been so easy. Spend less time worrying about your invitations going out and more time planning your perfect day.</p>
+                <p>Sending wedding invitations has never been so easy. With the whole process taking about 5 minutes, spend less time worrying about your invitations going out and more time planning your perfect day.</p>
               </div>
             </div>
             <div className="col-md-4">
               <div className="feature">
-                <h1 className="text-center"><i className="fa fa-star"></i></h1>
-                <p></p>
+                <h1 className="text-center">Dazzling <i className="fa fa-star"></i></h1>
+                <p>Choose from one of our ready made designs, or customize your invitation. If you're feeling really fancy, why not do both!</p>
               </div>
             </div>
           </div>
