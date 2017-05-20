@@ -3,5 +3,10 @@ footer.footer {
   position: absolute;
   height: 60px;
   width: 100%;
-  color: #000;
+  color: #fff;
+  background-color: #2a2a2a;
+}
+
+p {
+  margin-top: 15px;
 }
